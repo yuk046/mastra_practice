@@ -1,0 +1,37 @@
+{
+  "name": "mastra_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuk046/mastra_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yuk046/mastra_practice/issues"
+  },
+  "homepage": "https://github.com/yuk046/mastra_practice#readme",
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^3.0.13",
+    "@ai-sdk/openai": "^1.0.0",
+    "@mastra/core": "^0.15.2",
+    "@mastra/libsql": "^0.13.7",
+    "@mastra/loggers": "^0.10.9",
+    "@mastra/memory": "^0.14.2",
+    "mastra": "^0.11.3",
+    "zod": "^3.25.76"
+  }
+}
